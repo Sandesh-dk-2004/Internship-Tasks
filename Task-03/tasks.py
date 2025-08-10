@@ -1,5 +1,5 @@
 #Task 17:Table of a Number
-'''def table_of_number(num):
+def table_of_number(num):
     for i in range(1,11):
         op= i*num
         print(f"{i}*{num} = {op}")
@@ -104,7 +104,7 @@ def second_Largest_num(lst):
         print(f"second largest number from the list is : {sorted_lst[-2]}")
 
 lst=[0,8,75,4,2,9,5,4,7,3,2,14,56,78]
-second_Largest_num(lst)'''
+second_Largest_num(lst)
 
 #Task 24: Check Anagrams.
 def Check_anagrams(strg1,strg2):
